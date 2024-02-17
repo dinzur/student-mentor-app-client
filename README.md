@@ -1,3 +1,6 @@
+
+<img width="867" alt="student-mentor-app" src="https://github.com/dinzur/student-mentor-app-server/assets/111651697/86f80406-73f5-4748-a228-dddaf1441914">
+
 # Student-Mentor App - Client side
 
 This app is an online coding application with the following pages and features"
