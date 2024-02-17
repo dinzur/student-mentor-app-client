@@ -1,0 +1,95 @@
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ecf0f1;
+}
+
+.Lobby, .CodeBlockPage {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.5em;
+}
+
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  margin: 0.5em;
+}
+
+.javascript {
+  font-size: 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
+button {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  margin: 0.5em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.smiley {
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: underline;
+  color: #2980b9; /* Change link color */
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #21618c; /* Change link color on hover */
+}
+
+/* Error message styling */
+.error {
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+/* Textarea styling */
+textarea {
+  width: calc(100% - 22px); /* Adjust width for symmetry */
+  height: 200px; /* Increase height for better visibility */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Copyright section styling */
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
+
+.copyright p {
+  margin: 0;
+}
