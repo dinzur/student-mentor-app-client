@@ -5,7 +5,7 @@ import Lobby from "./Lobby";
 import CodeBlockPage from "./CodeBlockPage";
 import { defaultCode } from "./codeBlocks";
 
-const socket = io.connect("https://studentmentorapp-server.netlify.app/");
+const socket = io.connect("https://student-mentor-app-server.vercel.app/");
 
 function App() {
   useEffect(() => {
