@@ -6,7 +6,7 @@ import Lobby from "./Lobby";
 import CodeBlockPage from "./CodeBlockPage";
 import { defaultCode } from "./codeBlocks";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://studentmentorapp-server.netlify.app/");
 
 function App() {
   return (
